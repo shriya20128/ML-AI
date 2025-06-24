@@ -1,0 +1,165 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey! How can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Much appreciated"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime!",
+        "Glad to help!"
+      ]
+    },
+    {
+      "tag": "python_strings",
+      "patterns": [
+        "What is a string?",
+        "Tell me about strings in Python",
+        "Explain Python string"
+      ],
+      "responses": [
+        "A string in Python is text inside quotes, like 'hello' or \"world\".",
+        "Strings are sequences of characters, used to store text."
+      ]
+    },
+    {
+      "tag": "python_integers",
+      "patterns": [
+        "What is an integer in Python?",
+        "Explain Python integers",
+        "Tell me about int type"
+      ],
+      "responses": [
+        "An integer is a whole number, like 1, 42, or -7.",
+        "In Python, integers (int) are numbers without decimals."
+      ]
+    },
+    {
+      "tag": "python_floats",
+      "patterns": [
+        "What is a float?",
+        "Explain float in Python",
+        "Tell me about decimals in Python"
+      ],
+      "responses": [
+        "A float is a number with a decimal, like 3.14 or -0.5.",
+        "Floats are used in Python to represent numbers with fractional parts."
+      ]
+    },
+    {
+      "tag": "python_booleans",
+      "patterns": [
+        "What is a boolean in Python?",
+        "Explain booleans",
+        "True or False in Python"
+      ],
+      "responses": [
+        "Booleans represent truth values: True or False.",
+        "Use booleans in Python to make decisions with conditions."
+      ]
+    },
+    {
+      "tag": "python_lists",
+      "patterns": [
+        "What is a list in Python?",
+        "Explain Python list",
+        "Tell me about lists",
+        "Explain what a list is"
+      ],
+      "responses": [
+        "A list holds multiple items in one variable, like [1, 2, 3] or ['a', 'b', 'c'].",
+        "Lists are ordered collections of items, and they can be changed (mutable)."
+      ]
+    },
+    {
+      "tag": "python_variables",
+      "patterns": [
+        "What is a variable in Python?",
+        "Explain variables",
+        "How do you make a variable?"
+      ],
+      "responses": [
+        "A variable stores data in Python. For example: name = 'Alice'",
+        "Use variables to hold values like numbers or text."
+      ]
+    },
+    {
+      "tag": "python_print",
+      "patterns": [
+        "How do you print in Python?",
+        "Tell me about the print function",
+        "Use print in Python"
+      ],
+      "responses": [
+        "Use the print() function to show output. Example: print('Hello!')",
+        "Printing in Python is done with: print('your message')"
+      ]
+    },
+    {
+      "tag": "python_type",
+      "patterns": [
+        "How do you check the type in Python?",
+        "What type is this?",
+        "Use type function"
+      ],
+      "responses": [
+        "Use the type() function. Example: type(5) returns <class 'int'>",
+        "You can check data types with type()."
+      ]
+    },
+    {
+      "tag": "python_comments",
+      "patterns": [
+        "How do you write comments in Python?",
+        "Explain comments",
+        "What is a comment?"
+      ],
+      "responses": [
+        "Comments start with #. Example: # this is a comment",
+        "Use comments to explain code. They start with the # symbol."
+      ]
+    },
+    {
+      "tag": "python_conditionals",
+      "patterns": [
+        "What is a conditional?",
+        "Explain if statements",
+        "Explain elif statements",
+        "How do you use if,else,elif in Python?"
+      ],
+      "responses": [
+        "Conditionals let your code make decisions using if, elif, and else.",
+        "Use if to run code only when a condition is true.else runs when the condition is false. elif checks another condition."
+      ]
+    }
+  ]
+}
